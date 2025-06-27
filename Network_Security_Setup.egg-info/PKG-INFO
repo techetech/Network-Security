@@ -1,5 +1,5 @@
-Metadata-Version: 2.4
-Name: Network-Security
+Metadata-Version: 2.2
+Name: Network-Security-Setup
 Version: 0.0.1
 Author: Harsh 
 Requires-Dist: python-dotenv

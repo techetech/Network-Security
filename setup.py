@@ -33,7 +33,7 @@ def get_requirements()->List[str]:
     return requirement_lst
 
 setup(
-    name='Network Security',
+    name='Network-Security-Setup',
     version='0.0.1',
     author='Harsh ',
     packages=find_packages(),
