@@ -1,0 +1,1 @@
+[ 2025-06-27 15:06:09,583 ] 75 root - ERROR - Error occurred in script: [D:\Network Security\push_data.py] at line number: [33] with error message: [[Errno 2] No such file or directory: 'phishing_data.csv']
