@@ -1,5 +1,0 @@
-[ 2025-06-27 17:02:34,943 ] 14 root - INFO - Data ingestion started
-[ 2025-06-27 17:02:39,185 ] 54 root - INFO - Performed train-test split
-[ 2025-06-27 17:02:39,186 ] 56 root - INFO - Exited split_data_as_train_test method
-[ 2025-06-27 17:02:39,186 ] 61 root - INFO - Exported data into feature store directory
-[ 2025-06-27 17:02:39,273 ] 64 root - INFO - Train and test data exported to Artifacts\2025-06-27_17-02-32\networksecurity_data_ingestion\ingested_data\train.csv and Artifacts\2025-06-27_17-02-32\networksecurity_data_ingestion\ingested_data\test.csv respectively
