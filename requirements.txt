@@ -3,5 +3,8 @@ pandas
 numpy
 certifi
 scikit-learn
-
+dill 
+pymongo
+pymongo[srv]
+pyaml
 ##-e .

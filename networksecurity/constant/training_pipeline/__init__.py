@@ -14,6 +14,9 @@ FILE_NAME="phishingData.csv"
 
 TRAIN_FILE_NAME = "train.csv"
 TEST_FILE_NAME = "test.csv"
+
+SCHEMA_FILE_PATH = os.path.join("data_schema", "schema.yaml")
+
 """
 Data Ingestion and Preprocessing Module
 """
@@ -24,3 +27,13 @@ DATA_INGESTION_DIR_NAME = "networksecurity_data_ingestion"
 DATA_INGESTION_FEATURE_STORE_DIR= "feature_store"
 DATA_INGESTION_INGESTED_DIR= "ingested_data"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO = 0.2
+
+"""
+DATA VALIDATION MODULE
+"""
+
+DATA_VALIDATION_DIR_NAME = "data_validation"
+DATA_VALIDATION_INVALID_DIR = "invalid_data"
+DATA_VALIDATION_VALID_DIR = "valid_data"
+DATA_VALIDATION_DRIFT_REPORT_DIR = "drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME = "drift_report.yaml"

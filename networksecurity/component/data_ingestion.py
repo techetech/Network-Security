@@ -5,7 +5,8 @@ from networksecurity.logging.logger import logging
 ##configuration for the data ingestion module
 
 from networksecurity.entity.congif_entity import DataIngestionConfig
-from networksecurity.entity.artifact_entity import ArtifactEntity
+from networksecurity.entity.artifact_entity import DataIngestionArtifact
+
 import os
 import sys
 import numpy as np
@@ -74,7 +75,7 @@ class DataIngestion:
             ##splitting data into train and test set
             self.split_data_as_train_test(dataframe)
 
-            data_ingestion_artifact = ArtifactEntity(
+            data_ingestion_artifact = DataIngestionArtifact(
                 train_file_path=self.data_ingestion_config.training_file_path,
                 test_file_path=self.data_ingestion_config.testing_file_path
             )
