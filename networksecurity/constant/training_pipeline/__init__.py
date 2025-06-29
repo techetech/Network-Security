@@ -16,7 +16,8 @@ TRAIN_FILE_NAME = "train.csv"
 TEST_FILE_NAME = "test.csv"
 
 SCHEMA_FILE_PATH = os.path.join("data_schema", "schema.yaml")
-
+SAVED_MODEL_DIR = os.path.join("saved_models")
+MODEL_FILE_NAME= "model.pkl"
 """
 Data Ingestion and Preprocessing Module
 """
@@ -54,3 +55,14 @@ DATA_TRANSFORMATION_IMPUTER_PARAMS: dict={
     "n_neighbors":3,
     "weights": "uniform",
 }
+
+"""
+Model Training Module related content
+"""
+MODEL_TRAINER_DIR_NAME = "model_trainer"
+MODEL_TRAINER_TRAINED_MODEL_DIR = "trained_model"
+MODEL_TRAINER_TRAINED_MODEL_NAME = "model.pkl"
+MODEL_TRAINER_EXPECTED_SCORE = 0.6
+MODEL_TRAINER_OVERFITTING_UNDERFITTING_THRESHOLD = 0.05
+
+

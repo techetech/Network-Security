@@ -7,4 +7,8 @@ dill
 pymongo
 pymongo[srv]
 pyaml
+mlflow
+fastapi
+uvicorn
+dagshub
 ##-e .

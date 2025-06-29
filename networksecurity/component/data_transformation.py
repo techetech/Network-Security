@@ -93,6 +93,10 @@ class DataTransformation:
                 file_path=self.data_transformation_config.transformed_object_file_path,
                 obj=preprocessor_object
             )
+            save_object(
+                file_path="final_model/preprocessor.pkl",
+                obj=preprocessor_object
+            )
 
             logging.info("Data transformation completed successfully")
             #Preparing the artifact
